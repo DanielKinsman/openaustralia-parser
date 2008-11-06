@@ -61,7 +61,7 @@ h3. Ubuntu 8.04
 Use apt-get to install the requirements:
 
 <pre>
-$ sudo apt-get install apache2 php5 php5-cli mysql-server libmysqlclient15-dev git-core imagemagick libmagick9-dev ghostscript ruby rubygems ruby1.8-dev
+$ sudo apt-get install apache2 php5 php5-cli mysql-server libmysqlclient15-dev git-core imagemagick libmagick9-dev ghostscript ruby rubygems ruby1.8-dev libopenssl-ruby
 </pre>
 
 Install the required rubygems:
@@ -72,6 +72,7 @@ $ sudo gem install rcov
 $ sudo gem install mechanize -v 0.6.10
 $ sudo gem install RMagick
 $ sudo gem install log4r
+$ sudo gem install activesupport
 </pre>
 
 Note: Currently OpenAustralia requires an older version of mechanize (0.6.10), but this might change in the future.
